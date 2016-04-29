@@ -8,7 +8,7 @@ double fu(double t) {
 
 int main() {
 	
-	double t1 = 0, t2 = 3e-3 /* 1ms */ ;
+	double t1 = 0, t2 = 6e-3 /* 6ms */ ;
 	double pwm_freq = 200 * 1e+3 /* 200kHz */ ;
 	double a = 5; /* 5V */
 	

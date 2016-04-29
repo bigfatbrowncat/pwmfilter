@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=-145,0,895,605,0.957407,55,0>
+  <View=-145,0,895,605,0.957407,47,0>
   <Grid=10,10,1>
   <DataSet=filter6-iter1.dat>
   <DataDisplay=filter6-iter1.dpl>
@@ -19,7 +19,6 @@
   <C C1 1 80 310 17 -26 0 1 "2.2 uF" 1 "" 0 "neutral" 0>
   <Lib T1 1 260 250 8 -26 0 0 "NMOSFETs" 0 "IRL530N" 0>
   <VProbe PrIn 1 -90 300 -31 -44 0 1>
-  <Vfile V2 1 -40 130 18 -26 0 1 "C:\msys64\home\imizus\Projects\filter\sine.csv" 1 "linear" 0 "no" 0 "1" 0 "0" 0>
   <VProbe V_Dyn 1 640 150 -62 -16 0 2>
   <VProbe V_RD 1 370 340 -16 28 0 3>
   <IProbe I1 1 350 180 -26 16 1 2>
@@ -29,8 +28,9 @@
   <R R2 0 170 300 15 -26 0 1 "2kOhm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
   <GND * 1 820 400 0 0 0 0>
   <Vdc V1 1 820 370 18 -26 0 1 "9 V" 1>
-  <.TR TR1 1 -70 420 0 55 0 0 "lin" 1 "0" 1 "0.02 ms" 1 "2001" 0 "Trapezoidal" 0 "2" 0 "1 ns" 0 "1e-16" 0 "150" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "26.85" 0 "1e-3" 0 "1e-6" 0 "1" 0 "CroutLU" 0 "no" 0 "yes" 0 "0" 0>
-  <R R5 1 260 340 15 -26 0 1 "10 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
+  <.TR TR1 1 -70 420 0 55 0 0 "lin" 1 "0" 1 "0.05 ms" 1 "25001" 0 "Trapezoidal" 0 "2" 0 "1 ns" 0 "1e-16" 0 "150" 0 "0.001" 0 "1 pA" 0 "1 uV" 0 "26.85" 0 "1e-3" 0 "1e-6" 0 "1" 0 "CroutLU" 0 "no" 0 "yes" 0 "0" 0>
+  <Vfile V2 1 -40 130 18 -26 0 1 "C:/msys64/home/Ilya/Projects/pwmfilter/sine.csv" 1 "linear" 0 "no" 0 "1" 0 "0" 0>
+  <R R5 1 260 340 15 -26 0 1 "5 Ohm" 1 "26.85" 0 "0.0" 0 "0.0" 0 "26.85" 0 "european" 0>
 </Components>
 <Wires>
   <80 360 170 360 "" 0 0 0 "">
