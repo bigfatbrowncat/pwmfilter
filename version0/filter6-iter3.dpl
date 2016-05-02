@@ -1,6 +1,6 @@
 <Qucs Schematic 0.0.19>
 <Properties>
-  <View=-42,0,846,800,1,0,0>
+  <View=-25,-30,949,954,1,0,0>
   <Grid=10,10,0>
   <DataSet=filter7-iter2.dat>
   <DataDisplay=filter7-iter2.sch>
@@ -22,6 +22,10 @@
 <Diagrams>
   <Rect 50 444 749 394 3 #c0c0c0 1 00 1 0 0.0005 0.005 1 -1.18551 0.5 3.12989 1 -1 0.2 1 315 0 225 "" "" "">
 	<"filter6-iter3:V_Dyn.Vt" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 50 874 749 394 3 #c0c0c0 1 00 1 0 0.0005 0.006 1 -0.307122 0.5 3 1 -1 0.2 1 315 0 225 "" "" "">
+	<"filter6-iter3:I1.It" #0000ff 0 3 0 0 0>
+	<"filter6-iter3:I2.It" #ff0000 0 3 0 0 0>
   </Rect>
 </Diagrams>
 <Paintings>

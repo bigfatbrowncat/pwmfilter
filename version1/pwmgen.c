@@ -9,7 +9,7 @@ double fu(double t) {
 int main() {
 	
 	double t1 = 0, t2 = 6e-3 /* 6ms */ ;
-	double pwm_freq = 200 * 1e+3 /* 200kHz */ ;
+	double pwm_freq = 100 * 1e+3 /* 100kHz */ ;
 	double a = 5; /* 5V */
 	
 	int points = (t2 - t1) / pwm_freq;

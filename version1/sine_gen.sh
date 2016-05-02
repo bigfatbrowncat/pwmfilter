@@ -1,0 +1,1 @@
+gcc pwmgen.c -o pwmgen && ./pwmgen > sine.csv

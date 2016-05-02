@@ -1,0 +1,33 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=0,-240,1145,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=filter6-iter3b.dat>
+  <DataDisplay=filter6-iter3b.sch>
+  <OpenDisplay=1>
+  <Script=filter6-iter3b.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Название>
+  <FrameText1=Чертил:>
+  <FrameText2=Дата:>
+  <FrameText3=Версия:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 70 46 1028 256 3 #c0c0c0 1 00 1 -1 0.1 1 1 -1 0.5 1 1 -1 0.5 1 315 0 225 "" "" "">
+	<"V_MOSFET.Vt" #0000ff 0 3 0 0 0>
+	<"V_out.Vt" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 70 336 1028 256 3 #c0c0c0 1 00 1 -1 0.1 1 1 -1 0.5 1 1 -1 0.5 1 315 0 225 "" "" "">
+	<"I_out.It" #0000ff 0 3 0 0 0>
+	<"I_zero.It" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
